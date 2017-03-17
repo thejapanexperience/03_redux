@@ -66,6 +66,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thejapanexperience/02_initial_app_structure.git"
+    "url": "https://github.com/thejapanexperience/03_redux.git"
   }
 }
