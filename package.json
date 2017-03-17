@@ -11,8 +11,7 @@
     "test": "mocha --reporter progress tools/testSetup.js \"src/**/*.test.js\"",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "Cory House",
-  "license": "MIT",
+  "author": "Richard Mands",
   "dependencies": {
     "babel-polyfill": "6.8.0",
     "bootstrap": "3.3.6",
@@ -67,6 +66,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thejapanexperience/plural_sight_react_redux_course.git"
+    "url": "https://github.com/thejapanexperience/02_initial_app_structure.git"
   }
 }
