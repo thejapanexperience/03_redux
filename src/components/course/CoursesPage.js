@@ -1,4 +1,6 @@
 import React, {PropTypes} from 'react';
+import {connect} from 'react-redux';
+import * as courseActions from '../../actions/courseActions';
 
 class CoursesPage extends React.Component {
   constructor(props, context) {
@@ -40,4 +42,12 @@ class CoursesPage extends React.Component {
   }
 }
 
-export default CoursesPage;
+function mapStateToProps(state, ownProps){
+  return {
+    courses: state.courses
+  };
+}
+
+// function mapDispatchToProps()
+
+export default connect(mapStateToProps)(CoursesPage);
